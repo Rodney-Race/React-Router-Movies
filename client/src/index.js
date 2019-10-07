@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router } from "react-router-dom";
 import './index.css';
 import App from './App';
+import {BrowserRouter as Router } from "react-router-dom";
 
-ReactDOM.render( 
-    <router>
+ReactDOM.render(
+    <Router>
         <App />
-    git</router>, 
+    </Router>, 
 document.getElementById('root'));
