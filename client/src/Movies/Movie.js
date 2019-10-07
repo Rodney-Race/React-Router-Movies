@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const Movie = (props) => {
-  console.log(props);
+  //console.log(props);
   const [movie, setMovie] = useState();
   
   useEffect(() => {
@@ -21,7 +21,7 @@ const Movie = (props) => {
   },[]);
   
   
-  //Uncomment this only when you have moved on to the stretch goals
+  // Uncomment this only when you have moved on to the stretch goals
   // const saveMovie = () => {
   //   const addToSavedList = props.addToSavedList;
   //   addToSavedList(movie)
