@@ -9,10 +9,10 @@ const App = () => {
 
   const [savedList, setSavedList] = useState( [] );
   
-  const addToSavedList = movie => {
+  const addToSavedList = movie => {    // <---needs fixed here
     setSavedList( [...savedList, movie] );
   };
-  // console.log(addToSavedList);
+   console.log(addToSavedList);
 
   return (
     <div>

@@ -17,8 +17,7 @@ const Movie = (props) => {
         .catch(error => {
           console.error(error);
         });
-
-  },[]);
+  },[]); // <---needs fixed here
   
   
   // Uncomment this only when you have moved on to the stretch goals
