@@ -20,12 +20,12 @@ const Movie = (props) => {
       console.error(error);
     });
 
-},[]);
+},[props.match.params.id]);
   
   
   //Uncomment this only when you have moved on to the stretch goals
   
-    // const saveMovie = () => {
+  //   const saveMovie = () => {
   //   const addToSavedList = props.addToSavedList;
   //   addToSavedList(movie)
   // }
@@ -53,7 +53,11 @@ const Movie = (props) => {
           </div>
         ))}
       </div>
-      <div className="save-button">Save</div>
+      <div 
+      className="save-button"
+      >
+        Save
+        </div>
     </div>
   );
 }
